@@ -1,0 +1,124 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django specific files
+db.sqlite3
+/static/
+/media/
+
+# If you are using SQLite, ignore the database file
+*.sqlite3
+
+# Environments
+venv/
+env/
+venv.bak/
+env.bak/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# If you use a virtual environment to run your Django application
+venv/
+ENV/
+env/
+ENV.bak/
+env.bak/
+
+# Python eggs
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg-info
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+.settings/
+.env
+.env.*
+
+# Sphinx documentation
+docs/_build/
+target/
+
+# PyBuilder
+target/
+
+# Profiling data
+.prof
+
+# MyPy
+.mypy_cache/
+
+# pyre type checker
+.pyre/
+
+# Data or other backups
+*.bak
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+
+# macOS specific files
+.DS_Store
+._.DS_Store
+# System files
+Thumbs.db
+
+# JetBrains specific files
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pylint
+pylint-report.txt
+pylint-output.txt
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Flask specific files
+instance/
+
+# Database migrations
+migrations/
+*.pid
+
+# Generated files
+*.pot
+*.po
+*.pyi
