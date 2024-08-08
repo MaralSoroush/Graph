@@ -1,4 +1,3 @@
-from rest_framework import viewsets
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.db import connection
@@ -20,8 +19,8 @@ class PostgresqlExtensionAPIView(APIView):
         return Response({"extensions": extensions_list})
 
 
-class EndPointCallViewSet(viewsets.ViewSet):
-    def list(self, request):
+class EndPointCallAPIView(APIView):
+    def get(self, request, *args, **kwargs):
         db_data = EndPointCall.objects.all()
         data = []
         for record in db_data:
